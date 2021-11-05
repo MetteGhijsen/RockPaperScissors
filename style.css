@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(montserrat/Montserrat-Regular.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(montserrat/Montserrat-Bold.otf) format("truetype");
+}
+
+body{
+    background-color: #343a40;
+    zoom: 50%;
+}
+
+.button{
+    margin: 10px;
+    font-size: 50px;
+    font-family: Montserrat-Bold;
+}
+
+.score{
+    font-size: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score h1{
+    font-family: Montserrat-Bold;
+    display: flex;
+    font-size: 70px;
+}
+
+.score p{
+    font-family: Montserrat-Regular;
+    display: flex;
+}
+
+.scoreplayer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.scorecomputer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.winnaar h1{
+    font-family: Montserrat-Bold;
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    height: 900px;
+}
+
+@keyframes shake{
+    0%{
+        transform: translateY(0px);
+    }
+    15%{
+        transform: translateY(-50px);
+    }
+    30%{
+        transform: translateY(0px);
+    }
+    45%{
+        transform: translateY(-50px);
+    }
+    60%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
