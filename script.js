@@ -15,7 +15,7 @@ function ChoiceIsRock() {
     setTimeout(() => {
         RemoveAnimation();
         photoPlayer.src = "img/playerfist.png";
-        let choiceEnemy = Math.floor(Math.random() * 4);
+        let choiceEnemy = Math.floor(Math.random() * 3 + 1);
         switch (choiceEnemy) {
             case 1: //rock
                 photoComputer.src = "img/enemyfist.png";
@@ -40,7 +40,7 @@ function ChoiceIsPaper() {
     setTimeout(() => {
         RemoveAnimation();
         photoPlayer.src = "img/playerpaper.png";
-        let choiceEnemy = Math.floor(Math.random() * 4);
+        let choiceEnemy = Math.floor(Math.random() * 3 + 1);
         switch (choiceEnemy) {
             case 1: //rock
                 photoComputer.src = "img/enemyfist.png";
@@ -65,7 +65,7 @@ function ChoiceIsScissor() {
     setTimeout(() => {
         RemoveAnimation();
         photoPlayer.src = "img/playerscissor.png";
-        let choiceEnemy = Math.floor(Math.random() * 4);
+        let choiceEnemy = Math.floor(Math.random() * 3 + 1);
         switch (choiceEnemy) {
             case 1: //rock
                 photoComputer.src = "img/enemyfist.png";
